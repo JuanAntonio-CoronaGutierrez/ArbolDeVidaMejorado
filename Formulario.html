@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <center>
+        <h1><b>Formulario de Contacto</b></h1><br>
+        <form action="/Formulario.html">
+            <label for="fnombre"><b>Nombre(s):</b></label><br>
+            <input type="text" id="fnombre" name="fnombre" value=""><br>
+            <label for="fapellido"><b>Apellidos:</b></label><br>
+            <input type="text" id="fapellido" name="fapellido" value=""><br>
+            <label for="femail"><b>E-mail:</b></label><br>
+            <input type="text" id="femail" name="femail" value=""><br>
+            <label for="ftelefono"><b>Número de Telefono:</b></label><br>
+            <input type="text" id="ftelefono" name="ftelefono" value=""><br>
+            <label for="fdireccion"><b>Dirección:</b></label><br>
+            <input type="text" id="fdireccion" name="fdireccion" value=""><br>
+            <td><b>Rango de Edad</b></td>
+            <table>
+                <tr>
+                    <td><input type="radio" id="Menor20" name="Edad" value="Menor20">
+                    <label for="Menor20">Menor a 20 años</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="20-40" name="Edad" value="20-40">
+                    <label for="20-40">Entre 20 y 40 años</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="40-60" name="Edad" value="40-60">
+                    <label for="40-60">Entre 40 y 60 años</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="Mayor60" name="Edad" value="Mayor60">
+                    <label for="Mayor60">Mayor a 60 años</label></td>
+                </tr>
+            </table>
+            <td><b>Sexo</b></td>
+            <table>
+                <tr>
+                    <td><input type="radio" id="Hombre" name="Sexo" value="Hombre">
+                    <label for="Hombre">Hombre</label></td>
+                <tr>
+                    <td><input type="radio" id="Mujer" name="Sexo" value="Mujer">
+                    <label for="Mujer">Mujer</label></td>
+                </tr>
+                </tr>
+            </table>
+            <laber for="fcontacto"><b>Forma de Contacto:</b></laber><br>
+            <table>
+                <tr>
+                    <td><input type="checkbox" id="TelefonoCel" name="TelefonoCel" value="TelefonoCel">
+                    <label for="TelefonoCel">Telefono Celular</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="TelefonoPar" name="TelefonoPar" value="TelefonoPar">
+                    <label for="TelefonoPar">Telefono Fijo</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="Email" name="Email" value="Email">
+                    <label for="Email">E-mail</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="RedesSoc" name="RedesSoc" value="RedesSoc">
+                    <label for="RedesSoc">Redes Sociales</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="Domicilio" name="Domicilio" value="Domicilio">
+                    <label for="Domicilio">Domicilio del Usuario</label></td>
+                </tr>
+            </table>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </center>
+</body>
+</html>
